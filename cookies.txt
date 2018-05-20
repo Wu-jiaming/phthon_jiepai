@@ -1,0 +1,4 @@
+    pattern=re.compile('<dd>.*?board-index.*?>(\d+)</i>.*?title="(.*?)"'
+                      +'.*?data-src="(.*?)".*?<p class="star">(.*?)</p>'
+                      +'.*?<p class="releasetime">.*?</p>'
+                      ,re.S)
